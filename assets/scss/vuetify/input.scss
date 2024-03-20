@@ -1,0 +1,27 @@
+.theme--light.v-select .v-select__selection--comma,
+.theme--light.v-input input,
+.v-text-field {
+  border: none !important;
+}
+
+.v-text-field fieldset,
+.v-text-field .v-input__control {
+  color: #E3E3EA !important;
+}
+
+.v-text-field--filled > .v-input__control > .v-input__slot, .v-text-field--full-width > .v-input__control > .v-input__slot, .v-text-field--outlined > .v-input__control > .v-input__slot {
+  min-height: 39px !important
+}
+
+.theme--light.v-input {
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+//.v-label{
+//  top:50% !important;
+//  transform: translateY(-50%) !important;
+//}
+.theme--light.v-input textarea {
+  //color: $material-font-light-theme;
+  //font-size: 16px;
+}

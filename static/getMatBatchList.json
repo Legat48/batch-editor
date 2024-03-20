@@ -1,0 +1,260 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "batches": [
+      {
+        "id": 1,
+        "mat_id": 1,
+        "batch_no": "12345Д",
+        "wght": 10,
+        "len": 1000,
+        "run_meter_wght": 2,
+        "run_meter_wght_fill": 1,
+        "fill_factor": 0.5,
+        "comment": "String",
+        "wght_rem": 1,
+        "len_rem": 1,
+        "status": 1,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 2,
+        "mat_id": 2,
+        "batch_no": "String",
+        "wght": 2,
+        "len": 2,
+        "run_meter_wght": 2,
+        "run_meter_wght_fill": 2,
+        "fill_factor": 0.2,
+        "comment": "String",
+        "wght_rem": 2,
+        "len_rem": 2,
+        "status": 2,
+        "date_create": 1693207313000,
+        "date_edit": 1693207313000,
+        "edit_author": "String"
+      },
+      {
+        "id": 2,
+        "mat_id": 2,
+        "batch_no": "String",
+        "wght": 2,
+        "len": 2,
+        "run_meter_wght": 2,
+        "run_meter_wght_fill": 2,
+        "fill_factor": 0.2,
+        "comment": "String",
+        "wght_rem": 2,
+        "len_rem": 2,
+        "status": 3,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      }
+    ],
+    "unit_batches": [
+      {
+        "unit_id": 1,
+        "unit_name": "String1",
+        "batch_id": 1
+      },
+      {
+        "unit_id": 2,
+        "unit_name": "String2",
+        "batch_id": 2
+      },
+      {
+        "unit_id": 3,
+        "unit_name": "String3",
+        "batch_id": 3
+      },
+      {
+        "unit_id": 4,
+        "unit_name": "String4",
+        "batch_id": 4
+      },
+      {
+        "unit_id": 5,
+        "unit_name": "String5",
+        "batch_id": 5
+      },
+      {
+        "unit_id": 6,
+        "unit_name": "String6",
+        "batch_id": 1
+      }
+    ],
+    "materials": [
+      {
+        "id": 1,
+        "type_id": 1,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 1,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 2,
+        "type_id": 2,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 1,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 3,
+        "type_id": 3,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 2,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 4,
+        "type_id": 1,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 3,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 5,
+        "type_id": 2,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 2,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 6,
+        "type_id": 1,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 1,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 7,
+        "type_id": 3,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 3,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 8,
+        "type_id": 3,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 2,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },{
+        "id": 9,
+        "type_id": 1,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 1,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      },
+      {
+        "id": 10,
+        "type_id": 1,
+        "name": "String1",
+        "abbr": "String23",
+        "cost": 1222,
+        "id_level3": 11,
+        "run_meter_wght_min": 111,
+        "run_meter_wght_max": 321,
+        "usage_tag": 3,
+        "hdl_type_id": 111,
+        "packaged_output": 13222,
+        "date_create": 1693207825000,
+        "date_edit": 1693207825000,
+        "edit_author": "String"
+      }
+    ],
+    "unit_materials": [
+      {
+        "unit_group_id": 1,
+        "unit_group_name": "String",
+        "mat_id": 1,
+        "usage_tag": 1
+      }
+    ]
+  },
+  "id": "123"
+}

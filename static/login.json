@@ -1,0 +1,9 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "auth": "Boolean",
+    "auth_token": "token1",
+    "access_level": "READWRITE "
+  },
+  "id": "123"
+}

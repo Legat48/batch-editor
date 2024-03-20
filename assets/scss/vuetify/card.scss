@@ -1,0 +1,22 @@
+.v-application .v-sheet.v-card:not(.v-sheet--outlined) {
+  box-shadow: none;
+}
+
+.v-sheet.v-card.border-success-all {
+  border: 1px solid $success !important;
+}
+//v-card header
+.theme--dark.v-card{
+  background-color: #111111 !important;
+}
+.v-sheet.v-card{
+  border-radius: 4px !important;
+}
+
+//.theme--light.v-card{
+//  background-color: rgba(255, 213, 183) !important;
+//}
+
+.card-shadow {
+  box-shadow: none !important;
+}

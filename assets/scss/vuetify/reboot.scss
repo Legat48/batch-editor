@@ -1,0 +1,292 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-color;
+}
+
+html{
+  overflow-y: hidden !important;
+}
+
+
+.td-none {
+  text-decoration: none !important;
+}
+
+
+.v-application::after {
+  content: '';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: calc(100vw + 200px);
+  /*filter: blur(10px);*/
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+
+.data-table-line:hover {
+  background: #eeeeee;
+}
+
+
+.v-application {
+  position: relative;
+  z-index: 0;
+  background: transparent !important;
+}
+
+.theme--light.v-application::after {
+  background: #F4F4F7 !important;
+  z-index: -1;
+
+}
+
+.theme--dark.v-application::after {
+  background: #1c1c1c !important;
+  z-index: -1;
+}
+
+
+.v-overlay{
+  z-index: 2 !important;
+}
+
+.border-right {
+  border-right: 1px solid $border-color;
+}
+
+.border-left {
+  border-left: 1px solid $border-color;
+}
+
+.border-top {
+  border-top: 1px solid $border-color;
+}
+
+.border-top-0 {
+  border-top: 0;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $border-color;
+}
+
+.theme--light.border-all,
+.border-all {
+  border: 1px solid $border-color !important;
+}
+
+.mw-unset {
+  min-width: unset !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.no-cursor {
+  cursor: initial;
+}
+
+.v-overlay__scrim{
+  opacity: 0!important;
+}
+
+// .no-effect-button {
+//   &:hover {
+//     color: $blue;
+//     &::before {
+//       background-color: transparent;
+//     }
+//   }
+// }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.theme--light.v-btn:focus::before {
+  opacity: 0 !important;
+}
+
+.v-menu__content{
+  border-radius: 15px !important;
+  box-shadow: 0px 30px 36px 0px #0000000D !important;
+}
+
+.form-control {
+  border: 1px solid $border-color;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 40px;
+  height: 40px;
+  &:focus {
+    outline: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .pt-sm-0 {
+    padding-top: 0 !important;
+  }
+  .py-sm-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .v-application .text-h2 {
+    font-size: 25px !important;
+  }
+  .px-xs-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .custom-label {
+    .v-input__slot {
+      align-items: flex-start;
+    }
+
+    .v-label {
+      min-height: 58px;
+      white-space: pre-line !important;
+    }
+  }
+  .inner-top-spacer {
+    padding-top: 30px;
+  }
+}
+
+.v-main {
+}
+
+.font-10{
+  font-size: 10px !important;
+
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-13 {
+  font-size: 13px !important;
+}
+
+// .dark-link {
+//   text-decoration: none;
+//   color: $heading-color !important;
+//   &:hover {
+//     color: $primary !important;
+//   }
+// }
+
+.footer-bottom-bar {
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.mini-spacer {
+  padding: 75px 0;
+}
+
+@media (max-width: 767px) {
+  .mini-spacer {
+    padding: 45px 0;
+  }
+}
+
+.v-pagination {
+  justify-content: flex-start;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.bg-dark,
+.app-header.v-sheet.bg-dark {
+  background-color: #263238 !important;
+}
+
+.bg-extra-light {
+  background-color: #f4f8fa;
+}
+
+.bg-light-info {
+  background-color: #cfecfe;
+}
+
+.grey--text {
+  color: $gray-500 !important;
+}
+
+.op-8 {
+  opacity: 0.8;
+}
+
+.text-themecolor {
+  color: $accent !important;
+}
+
+.bg-info-grediant {
+  background: $primary;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    $primary,
+    $accent
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from($primary),
+    to($accent)
+  );
+  background: -webkit-linear-gradient(left, $primary, $accent);
+  background: linear-gradient(90deg, $primary 0, $accent);
+}
+
+.bg-danger-grediant {
+  background: $danger;
+  background: -webkit-linear-gradient(
+    legacy-direction(to right),
+    $danger,
+    $orange
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from($danger),
+    to($orange)
+  );
+  background: -webkit-linear-gradient(left, $danger, $orange);
+  background: linear-gradient(90deg, $danger 0, $orange);
+}

@@ -1,0 +1,460 @@
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "headersMaterials": {
+      "type1": [
+        {
+          "key": "name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "cost",
+          "name": "Цена за единицу, у.е."
+        },
+        {
+          "key": "mat_density",
+          "name": "Плотность материала, кг/м3"
+        },
+        {
+          "key": "usage_tag",
+          "name": "Признак использования"
+        },
+        {
+          "key": "dflt_wght",
+          "name": "Вес по умолч."
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        }
+      ],
+      "type2": [
+        {
+          "key": "name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "cost",
+          "name": "Цена за единицу, у.е."
+        },
+        {
+          "key": "run_meter_wght_default",
+          "name": " Масса погонного м. проволоки по умолч., г/м."
+        },
+        {
+          "key": "run_meter_wght_filler_default",
+          "name": "Масса погонного метра наполнителя проволоки по умолч., г/м."
+        },
+        {
+          "key": "fill_factor",
+          "name": "Коэффициент наполнения по умолч."
+        },
+        {
+          "key": "usage_tag",
+          "name": "Признак использования"
+        },
+        {
+          "key": "dflt_wght",
+          "name": "Вес по умолч."
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        }
+      ],
+      "type3": [
+        {
+          "key": "name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "cost",
+          "name": "Цена за единицу, у.е."
+        },
+        {
+          "key": "usage_tag",
+          "name": "Признак использования"
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        }
+      ],
+      "typeAll": [
+        {
+          "key": "name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "cost",
+          "name": "Цена за единицу, у.е."
+        },
+        {
+          "key": "run_meter_wght_default",
+          "name": " Масса погонного м. проволоки по умолч., г/м."
+        },
+        {
+          "key": "run_meter_wght_filler_default",
+          "name": "Масса погонного метра наполнителя проволоки по умолч., г/м."
+        },
+        {
+          "key": "fill_factor",
+          "name": "Коэффициент наполнения по умолч."
+        },
+        {
+          "key": "mat_density",
+          "name": "Плотность материала, кг/м3"
+        },
+        {
+          "key": "usage_tag",
+          "name": "Признак использования"
+        },
+        {
+          "key": "dflt_wght",
+          "name": "Вес по умолч."
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        }
+      ]
+    },
+    "headersBatches": {
+      "type1": [
+        {
+          "key": "batch_no",
+          "name": "№ партии"
+        },
+        {
+          "key": "batch_no_extra",
+          "name": "Дополнительный номер бухты"
+        },
+        {
+          "key": "batch_no_scada",
+          "name": "Название на SCADA"
+        },
+        {
+          "key": "mat_name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "batch_mat_density",
+          "name": "Плотность материала, кг/м3"
+        },
+        {
+          "key": "status",
+          "name": "Статус"
+        },
+        {
+          "key": "wght",
+          "name": "Вес кг."
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "comment",
+          "name": "Примечание"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        }
+      ],
+        "type2": [
+        {
+          "key": "batch_no",
+          "name": "№ партии"
+        },
+        {
+          "key": "batch_no_extra",
+          "name": "Дополнительный номер бухты"
+        },
+        {
+          "key": "batch_no_scada",
+          "name": "Название на SCADA"
+        },
+        {
+          "key": "mat_name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "status",
+          "name": "Статус"
+        },
+        {
+          "key": "wght",
+          "name": "Вес кг."
+        },
+        {
+          "key": "len",
+          "name": "Длина м."
+        },
+        {
+          "key": "fill_factor",
+          "name": "Коэффициент наполнения"
+        },
+        {
+          "key": "run_meter_wght",
+          "name": "Масса проволоки кг/м. "
+        },
+        {
+          "key": "run_meter_wght_fill",
+          "name": "Масса наполнителя кг/м."
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "comment",
+          "name": "Примечание"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        }
+      ],
+      "type3": [
+        {
+          "key": "batch_no",
+          "name": "№ партии"
+        },
+        {
+          "key": "batch_no_extra",
+          "name": "Дополнительный номер бухты"
+        },
+        {
+          "key": "batch_no_scada",
+          "name": "Название на SCADA"
+        },
+        {
+          "key": "mat_name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "status",
+          "name": "Статус"
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "comment",
+          "name": "Примечание"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        }
+      ],
+      "typeAll": [
+        {
+          "key": "batch_no",
+          "name": "№ партии"
+        },
+        {
+          "key": "batch_no_extra",
+          "name": "Дополнительный номер бухты"
+        },
+        {
+          "key": "batch_no_scada",
+          "name": "Название на SCADA"
+        },
+        {
+          "key": "mat_name",
+          "name": "Материал"
+        },
+        {
+          "key": "unitGroupInfo",
+          "name": "Группы агрегатов"
+        },
+        {
+          "key": "batch_mat_density",
+          "name": "Плотность материала, кг/м3"
+        },
+        {
+          "key": "status",
+          "name": "Статус"
+        },
+        {
+          "key": "wght",
+          "name": "Вес кг."
+        },
+        {
+          "key": "len",
+          "name": "Длина м."
+        },
+        {
+          "key": "fill_factor",
+          "name": "Коэффициент наполнения"
+        },
+        {
+          "key": "run_meter_wght",
+          "name": "Масса проволоки кг/м. "
+        },
+        {
+          "key": "run_meter_wght_fill",
+          "name": "Масса наполнителя кг/м."
+        },
+        {
+          "key": "type_name",
+          "name": "Тип материала"
+        },
+        {
+          "key": "elemInfo",
+          "name": "Хим состав"
+        },
+        {
+          "key": "comment",
+          "name": "Примечание"
+        },
+        {
+          "key": "date_create",
+          "name": "Дата создания"
+        },
+        {
+          "key": "date_edit",
+          "name": "Дата изменения"
+        },
+        {
+          "key": "edit_author",
+          "name": "Автор последних изменений"
+        }
+      ]
+    }
+  }
+  ,
+  "id": "123"
+}
+
